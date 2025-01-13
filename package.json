@@ -1,6 +1,6 @@
 {
   "name": "@mjt-services/asr-common-2025",
-  "version": "2025.1.13-1049",
+  "version": "2025.1.13-1124",
   "sideEffects": false,
   "description": "asr commmon code",
   "main": "./dist/index.js",
