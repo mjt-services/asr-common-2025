@@ -1,4 +1,5 @@
 import type { WhisperAsrRequest } from "./3rd-party/whisper-asr/WhisperAsrRequest";
+import type { WhisperAsrResponse } from "./3rd-party/whisper-asr/WhisperAsrResponse";
 
 export type AsrConnectionMap = {
   "asr.transcribe": {
@@ -6,7 +7,7 @@ export type AsrConnectionMap = {
       options?: Partial<{}>;
       body: WhisperAsrRequest;
     };
-    response: {};
+    response: WhisperAsrResponse;
     headers: {
       url?: string;
       authToken?: string;
