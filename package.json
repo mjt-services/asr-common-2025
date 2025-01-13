@@ -1,8 +1,8 @@
 {
-  "name": "@mjt-services/textgen-common-2025",
+  "name": "@mjt-services/asr-common-2025",
   "version": "2025.1.13-1049",
   "sideEffects": false,
-  "description": "textgen commmon code",
+  "description": "asr commmon code",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
